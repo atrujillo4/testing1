@@ -48,6 +48,7 @@ header a{
   text-decoration:none;
   text-transform: uppercase;
   font-size:16px;
+  display:inline;
 }
 
 header li{
@@ -67,6 +68,7 @@ header #branding h1{
 header nav{
   float:right;
   margin-top:10px;
+  display:inline;
 }
 
 header .highlight, header .current a{
@@ -184,6 +186,10 @@ footer{
     float:none;
     text-align:center;
     width:100%;
+  }
+
+  header nav li{
+    display:inline;
   }
 
   header{
